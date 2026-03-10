@@ -1,0 +1,20 @@
+{
+  "name": "botviewer",
+  "version": "1.0.0",
+  "description": "Bot inteligente com visualização web 3D (mineflayer + prismarine-viewer)",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.19.1",
+    "mineflayer-collectblock": "^1.4.0",
+    "mineflayer-pathfinder": "^2.5.1",
+    "mineflayer-pvp": "^1.3.0",
+    "minecraft-data": "^3.44.0",
+    "prismarine-viewer": "^1.27.0",
+    "vec3": "^0.1.8"
+  }
+}
